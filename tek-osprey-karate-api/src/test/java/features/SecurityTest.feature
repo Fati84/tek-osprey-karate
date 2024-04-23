@@ -11,3 +11,4 @@ Feature: Insurance APP Security Test
     When method post
 #    status assert response status code
     Then status 200
+    And print response
